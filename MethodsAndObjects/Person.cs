@@ -13,7 +13,7 @@ namespace MethodsAndObjects
 
         public void SayName()
         {
-            Console.WriteLine("Name: [fullname]");
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }
